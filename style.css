@@ -162,3 +162,12 @@ p {
   opacity: 1;
   transform: translateY(0);
 }
+
+.service h3 {
+  color: #4a2f5a;
+}
+
+.service p {
+  color: #4a2f5a;
+  opacity: 0.85; /* خفيف عشان يكون أنعم */
+}
