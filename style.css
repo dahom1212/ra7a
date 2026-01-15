@@ -5,6 +5,10 @@
   font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #111113;
   color: white;
@@ -33,7 +37,9 @@ body {
   padding: 20px 0;
 }
 
-.logo { height: 50px; }
+.logo {
+  height: 50px;
+}
 
 .hero {
   min-height: 100vh;
@@ -118,7 +124,7 @@ p {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
 }
 
