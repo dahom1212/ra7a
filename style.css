@@ -174,3 +174,63 @@ p {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* Order Form */
+.order-form {
+  max-width: 600px;
+  margin: auto;
+  background: #1a1c1e;
+  padding: 40px;
+  border-radius: 24px;
+  border: 1px solid #2a2a2e;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.field label {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.field input,
+.field select,
+.field textarea {
+  background: #111113;
+  border: 1px solid #333;
+  padding: 14px 16px;
+  border-radius: 12px;
+  color: white;
+  outline: none;
+}
+
+.field textarea {
+  min-height: 120px;
+  resize: none;
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  border-color: #4a2f5a;
+}
+
+.full {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.success-message {
+  margin-top: 20px;
+  text-align: center;
+  color: #4a2f5a;
+  font-weight: 600;
+}
+
