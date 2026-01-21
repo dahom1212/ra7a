@@ -6,18 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <script src="https://unpkg.com/lucide@latest"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="header">
   <div class="container header-content">
-    <img src="https://customer-assets.emergentagent.com/job_37cdf5ca-c4a1-49a9-bb47-c7d98fabd6ef/artifacts/vozgd24t_1751460459005.png" class="logo">
+    <img src="logo.png" class="logo">
   </div>
 </header>
 
-<section class="section reveal" style="padding-top:160px">
+<section class="section" style="padding-top:160px">
   <div class="container">
     <h2 class="title">طلب خدمة</h2>
 
@@ -37,25 +36,25 @@
 
       <div class="field">
         <label>اسمك</label>
-        <input type="text" id="name" placeholder="اكتب اسمك" required>
+        <input id="name" required>
       </div>
 
       <div class="field">
         <label>يوزر الديسكورد</label>
-        <input type="text" id="discord" placeholder="username#0000" required>
+        <input id="discord" required>
       </div>
 
       <div class="field">
         <label>رقم الجوال</label>
-        <input type="tel" id="phone" placeholder="05xxxxxxxx" required>
+        <input id="phone" required>
       </div>
 
       <div class="field hidden" id="descriptionField">
         <label>وصف الطلب</label>
-        <textarea id="description" placeholder="اشرح طلبك بالتفصيل"></textarea>
+        <textarea id="description"></textarea>
       </div>
 
-      <button type="submit" class="btn-primary large full">إرسال الطلب</button>
+      <button class="btn-primary full">إرسال الطلب</button>
 
       <p class="success-message hidden" id="successMessage">
         ✅ تم استلام طلبك، سيتم التواصل معك قريباً
@@ -70,6 +69,5 @@
 </footer>
 
 <script src="order.js"></script>
-<script>lucide.createIcons()</script>
 </body>
 </html>
